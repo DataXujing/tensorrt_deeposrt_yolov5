@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{e588c108-a27f-4044-b5c8-e3b62ed25be0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deepsort_trt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\deepsort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\deepsortenginegenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\featuretensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\hungarianoper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\kalmanfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\linear_assignment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\munkres.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\nn_matching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\track.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deepsort_src\tracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yolov5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrtTracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deepsort_include\datatype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\deepsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\deepsortenginegenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\featuretensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\hungarianoper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\kalmanfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\linear_assignment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\model.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\munkres.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\nn_matching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\track.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deepsort_include\tracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="yolov5.h" />
+    <ClInclude Include="TrtTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
